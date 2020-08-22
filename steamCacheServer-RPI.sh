@@ -16,6 +16,7 @@ rm -rf /var/lib/docker
 rm -rf /var/lib/containerd
 curl -fsSL https://get.docker.com -o get-docker.sh
 bash get-docker.sh --mirror Aliyun
+rm -rf /home/pi/get-docker.sh
 apt install libffi-dev -y
 echo '{
     "registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"]
