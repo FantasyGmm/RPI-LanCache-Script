@@ -17,3 +17,7 @@ sudo bash LanCacheServer-RPI.sh<p>
 <p>
 本脚本使用的lancache源自下面仓库<p>
 https://github.com/jrcichra/lancache-rpi<p>
+<p>
+顺便把我自己东拼西凑出来的一个适用于SSD1306 0.96寸的系统监视分享出来<p>
+python3.x应该都可以用<p>
+需要安装adafruit的ssd1306的pip包<p>
